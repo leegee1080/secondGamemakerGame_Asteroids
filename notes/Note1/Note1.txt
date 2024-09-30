@@ -1,0 +1,11 @@
+todo
+
+make turning slower while shooting
+
+create parent player object and child objects for each ship type
+create bullet spawn points
+create booster points (change booster to partiles?)
+
+sounds
+
+more enemies
