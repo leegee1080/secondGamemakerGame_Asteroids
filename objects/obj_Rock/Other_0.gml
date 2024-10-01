@@ -1,4 +1,4 @@
-if sprite_index == sprEnemyTurret_Base_Destroyed
+if sprite_index == spr_enemy_turret_base_destroyed
 {
 		instance_destroy()
 		

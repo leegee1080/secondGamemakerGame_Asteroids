@@ -1,6 +1,7 @@
-if other.sprite_index == sprEnemyTurret_Base
+if other.sprite_index == spr_enemy_turret_base
 {
-	effect_create_above(ef_firework,x,y,1,c_white);
-	obj_Game.alarm[0] = 120
+	instance_create_layer(x, y, "Instances", obj_explode_particle)
+	instance_destroy(obj_thruster)
+	obj_game.alarm[0] = 120
 	instance_destroy();
 }

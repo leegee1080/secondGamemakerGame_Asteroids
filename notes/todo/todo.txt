@@ -1,0 +1,11 @@
+todo
+
+create parent player object and child objects for each ship type
+create booster points (change booster to particles?)turn it into a trail
+
+sounds
+
+more enemies
+
+menus
+

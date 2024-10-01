@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"",
+  "%Name":"todo",
+  "name":"todo",
+  "parent":{
+    "name":"Asteroids",
+    "path":"Asteroids.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

@@ -1,10 +1,14 @@
 /// @desc follow player
-image_angle = obj_Player.image_angle;
-x = obj_Player.x;
-y = obj_Player.y;
+if(obj_player == noone){
+	instance_destroy()	
+}
+
+image_angle = obj_player.image_angle;
+x = obj_player.x;
+y = obj_player.y;
 
 
-if obj_Player.is_boosting{
+if obj_player.is_boosting{
 	image_xscale = 1;
 	image_yscale = 1;
 }else{
